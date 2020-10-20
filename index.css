@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-color: rgba(231, 240, 242, 0.3);
+    width: 60.1%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.layouting{
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    padding-left: 77px;
+    padding-right: 80px;
+
+}
+/* start styling */
+.heading{
+    padding-top: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    height: 184px;
+}
+.menu{
+    font-family:'Ubuntu';
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    list-style-type: none;
+    text-align: right;
+    width: 200px;
+    height: 15.38px;
+}
+.menu ul{
+    border-right: 1px solid #E7F0F2;;
+    padding-right: 15px;
+
+}
+#btn{
+    margin-top: 20px;
+    width: 98px;
+    height: 32px;
+    background-color: black;
+    color: white;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.mons{
+    font-size: 36px;
+    font-family:'Ubuntu', sans-serif;
+    float: right;
+    text-align: right;
+    width: 619px;
+    height: 89px;
+}
+.keterangan{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+p{
+    float: right;
+    font-family: 'Ubuntu';
+    text-align: right;
+    font-size: 12px;
+    width: 200px;
+    height: 56px;
+}
+
+.gambar{
+    display: flex;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gambar span{
+
+
+    background-color: black;
+    color: white;
+    width: 215px;
+    height: 114px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    margin-left: 49px;
+}
+.gambar span ul li{
+    list-style-type: none;
+    padding-right: 16px;
+    padding-bottom: 15px;
+}
+.galery{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 9px;
+    width: 74px;
+    height: 10px;
+}
+.subtitle{
+    font-family: 'Ubuntu';
+    font-weight: 500px;
+    font-size: 7px;
+    width: 74px;
+    height: 8px;
+}
+
+
+
+
+/* start footer section */
+.footer{
+    background-color: white;
+    height: 39px;
+    position: absolute;
+    right: 1px;
+    left: 1px;
+    bottom: 0;
+    text-align: center;
+    border-top: 0.5px solid #C4C4C4;
+}
+.icon{
+    justify-content: center;
+    margin-top: 11px;
+    display: flex;
+}
+.table-icon{
+    background-color: black;
+    width: 3.2px;
+    height: 3.2px;
+}
+td{
+    height: 3.2px;
+    width: 3.2px;
+}
+footer{
+    border-top: 0.5px solid  #E7F0F2 ;
+    width: 100%;
+
+}
+footer table tr td{
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* end footer section */

@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    position: absolute;
+    width: 511px;
+    height: 100%;
+    background-color:rgba(231, 240, 242, 0.3);;
+}
+
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.navigasi ul li img{
+    width: 20px;
+    height: 20px;
+}
+.navigasi ul li{
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-right: 10px;
+}
+.navigasi ul{
+    text-decoration: none;
+    list-style-type:none ;
+    text-align: end;
+    border-right :0.5px solid #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto);
+}
+
+.slide{
+    position: absolute;
+    left:70px;
+    top:630px;
+}
+.slide button{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    height: 48px;
+    width:40px;
+}
+.slide button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.product .product-desc{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.product-desc{
+    grid-template-rows: repeat(1fr);
+    grid-template-columns: repeat(1fr);
+    display: grid;
+}
+.title{
+    margin-top: 8%;
+    font-family: 'Roboto';
+    font-size: 36px;
+
+}
+
+.discount{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900px;
+}
+.hargaAsli{
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    color: rgb(172, 172, 219);
+
+}
+.product-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    max-width: 346px;
+}
+/* besok di ubah dropdown list */
+
+.size label{
+    font-family: 'Ubuntu';
+    font-style: medium;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    width: 34px;
+    height: 15px;
+
+}
+.size-prod {
+    border: none;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+    width: 130px;
+    height: 37px;
+}
+.ingredient{
+
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    text-align: right;
+    color:rgba(0, 0, 0, 0.55);
+}
+.btn{
+    margin-top: 40px;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500px;
+    width: 147px;
+    height: 48px;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.footer{
+    background-color: white;
+    position: absolute;
+    right: 1px;
+    left: 1px;
+    bottom: 0;
+    text-align: center;
+    border-top: 0.5px solid #C4C4C4;
+    height: 39px;
+}
+
+.icon{
+    justify-content: center;
+    margin-top: 11px;
+    display: flex;
+}
+.table-icon{
+    background-color: black;
+    width: 3.2px;
+    height: 3.2px;
+}
+td{
+    height: 3.2px;
+    width: 3.2px;
+}
+footer{
+    border-top: 0.5px solid  #E7F0F2 ;
+    width: 100%;
+
+}
+footer table tr td{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
