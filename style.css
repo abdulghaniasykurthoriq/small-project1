@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 50px 110px 0px 110px;
+} */
+
+.background-page1 {
+    background: linear-gradient(to right, #E7F0F24D 62%, #FFFFFF 38%) ;
+}
+
+.background-page2 {
+    background: linear-gradient(to left, #FFFFFF 62%, #E7F0F24D 38%) ;
+}
+
+/* agat section */
+.conpage1{
+    margin-left:5% ;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.heading{
+    /* padding-top: 15px; */
+    /* padding-top: 15%; */
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    height: 184px;
+}
+.menu{
+    font-family:'Ubuntu';
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    list-style-type: none;
+    text-align: right;
+    width: 200px;
+    height: 15.38px;
+}
+.menu ul{
+    border-right: 1px solid #E7F0F2;;
+    padding-right: 15px;
+
+}
+.conpage1 .content1{
+    display: flex;
+    justify-content: space-between;
+}
+#btn{
+    margin-top: 20px;
+    width: 98px;
+    height: 32px;
+    background-color: black;
+    color: white;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.mons{
+    font-size: 36px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 700;
+    float: right;
+    text-align: right;
+    width: 619px;
+    height: 89px;
+}
+.onlineshop{
+    font-family:'Ubuntu';
+    font-weight: 300;
+}
+.keterangan{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.keterangan .lorem{
+    border-top: 1px solid #E7F0F2;
+    color: rgba(0, 0, 0, 0.55);
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    float: right;
+    font-family: 'Ubuntu';
+    text-align: right;
+    font-size: 12px;
+    width: 200px;
+    height: 56px;
+}
+
+/* angga */
+
+.info-box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info-box > div {
+    background-color: #000000;
+    width: 210px;
+    height: 114px;
+    margin: 5px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.info {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 9px;
+    font-weight: 900;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-right: 15px;
+}
+
+.info-sub {
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-size: 7px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+/* hr {
+    margin-left: -110px;
+    margin-right: -110px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 0.5px solid #C4C4C4;
+    display: block;
+} */
+
+
+/* end anggga */
+
+.gambar{
+    display: flex;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gambar span{
+
+
+    background-color: black;
+    color: white;
+    width: 215px;
+    height: 114px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    margin-left: 49px;
+}
+.gambar span ul li{
+    list-style-type: none;
+    padding-right: 16px;
+    padding-bottom: 15px;
+}
+.galery{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 9px;
+    width: 74px;
+    height: 10px;
+}
+.subtitle{
+    font-family: 'Ubuntu';
+    font-weight: 500px;
+    font-size: 7px;
+    width: 74px;
+    height: 8px;
+}
+
+
+.cila{
+    /* background-color: gold; */
+    color: black;
+    padding-top: 60px;
+}
+.cila .footer{
+    background-color: white;
+    height: 39px;
+    text-align: center;
+    border-top: 0.5px solid #C4C4C4;
+}
+.icon{
+    justify-content: center;
+    margin-top: 11px;
+    display: flex;
+}
+.table-icon{
+    background-color: black;
+    width: 3.2px;
+    height: 3.2px;
+}
+td{
+    height: 3.2px;
+    width: 3.2px;
+}
+footer{
+    border-top: 0.5px solid  #E7F0F2 ;
+    width: 100%;
+
+}
+footer table tr td{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/* end agat section */
+
+
+
+/* start page 2 */
+
+.conpage2{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.navigasi ul li img{
+    width: 20px;
+    height: 20px;
+}
+.navigasi ul li{
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-right: 10px;
+}
+.navigasi ul{
+    text-decoration: none;
+    list-style-type:none ;
+    text-align: end;
+    border-right :0.5px solid #C4C4C4;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto);
+}
+
+.image-product img{
+    width: 523px;
+    height: 567px;
+}
+.slide button{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    height: 48px;
+    width:40px;
+}
+.slide button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.product .product-desc{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.container-desc{
+    margin-left: 50px;
+}
+.btn-prod{
+    margin-left: 50px;
+}
+.product-desc{
+    grid-template-rows: repeat(1fr);
+    grid-template-columns: repeat(1fr);
+    display: grid;
+}
+.title{
+    margin-top: 8%;
+    font-family: 'Roboto';
+    font-size: 36px;
+
+}
+
+.discount{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900px;
+}
+.hargaAsli{
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    color: rgb(172, 172, 219);
+
+}
+.product-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    max-width: 346px;
+}
+
+.size label{
+    font-family: 'Ubuntu';
+    font-style: medium;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12px;
+    width: 34px;
+    height: 15px;
+
+}
+.size-prod {
+    border: none;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+    width: 130px;
+    height: 37px;
+}
+.ingredient{
+
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    text-align: right;
+    color:rgba(0, 0, 0, 0.55);
+}
+.btn{
+    margin-top: 40px;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500px;
+    width: 147px;
+    height: 48px;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.cila2{
+    /* background-color: gold; */
+    color: black;
+}
+.cila2 .footer{
+    background-color: white;
+    height: 39px;
+    text-align: center;
+    border-top: 0.5px solid #C4C4C4;
+}
+.icon{
+    justify-content: center;
+    margin-top: 11px;
+    display: flex;
+}
+.table-icon{
+    background-color: black;
+    width: 3.2px;
+    height: 3.2px;
+}
+td{
+    height: 3.2px;
+    width: 3.2px;
+}
+footer{
+    border-top: 0.5px solid  #E7F0F2 ;
+    width: 100%;
+
+}
+footer table tr td{
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* end page 2 */
+
+
+
+
+
+
+
+/* start page2 */
+
+.container-page3 {
+    padding:0 80px 0;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: 5% 80% 10  ;
+}
+
+
+
+/* start header section */
+.header-page3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 44px;
+    margin-bottom: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+
+
+}
+
+img{
+    width: 21px;
+    height: 21px;
+    padding-left: 20px;
+}
+.search{
+
+    padding-left: 20px;
+    border-bottom: 0.5px solid #C4C4C4;;
+}
+#searching{
+    text-align: center;
+    border: none;
+}
+.kanan{
+    display: inline-flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.logo span{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+}
+.logo img{
+    margin: 10px;
+    width: 21px;
+    height: 21px;
+}
+
+/* end header section */
+
+
+
+
+
+/* start content section */
+.content{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    min-height: 65vh;
+}
+.product-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.product-category > div {
+    width: 200px;
+    height: 116px;
+    margin: 20px;
+    background-color: rgba(231, 240, 242, 0.3);
+    backdrop-filter: blur(6px);
+
+}
+.product-category div  p{
+    line-height: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    line-height: 13px;
+}
+
+.prodct-title {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-left: 12px;
+}
+
+.prodct-text {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 500px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-left:12px ;
+
+}
+
+/* end content section */
+
+
+
+
+/* aside section */
+
+.aside{
+    display: flex;
+    align-items: flex-end;
+}
+.aside ul {
+    border-left: 1px solid#E7F0F2;;
+}
+.aside ul li{
+    padding-top: 10px;
+    list-style-type: none;
+    margin-left: 10px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+}
+.item-2{
+    text-align: right;
+    align-content: flex-end;
+
+}
+.item-2 ul{
+    border-right:1px solid #E7F0F2;;
+}
+.item-2 ul li{
+    padding-top: 10px;
+    margin-right: 20px;
+    list-style-type: none;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* end aside section */
+
+
+
+.pagination{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.page{
+    margin-top: 10px;
+    padding:20px;
+    width:20%;
+    border-top: 0.5px solid #E7F0F2;
+
+}
+.pagination .page a{
+    text-decoration: none;
+    color: rgba(156, 194, 202, 0.3);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1em;
+    letter-spacing: 5px;
+}
+.pagination .page a:first-child {
+    color: black;
+  }
+/* end content */
+
+
+
+/* start footer section */
+
+.cila3{
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.cila3 .footer{
+    background-color: white;
+    height: 39px;
+    text-align: center;
+    border-top: 0.5px solid #C4C4C4;
+}
+.icon{
+    justify-content: center;
+    margin-top: 11px;
+    display: flex;
+}
+
+td{
+    background-color: black;
+
+    height: 1.1px;
+    width: 1.1px;
+}
+footer{
+    border-top: 0.5px solid  #E7F0F2 ;
+    width: 100%;
+
+}
+footer table tr td{
+    text-align: center;
+    justify-content: center;
+}
